@@ -46,6 +46,11 @@
     // getting a JSContext
     JSContext *context = [JSContext new];
     
+    // enable exception handling
+    [context setExceptionHandler:^(JSContext *context, JSValue *value) {
+        NSLog(@"%@", value);
+    }];
+    
     // defining a JavaScript function
     NSString *jsFunctionText =
     @"var isValidNumber = function(phone) {"
