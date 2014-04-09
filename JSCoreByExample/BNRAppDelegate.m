@@ -28,10 +28,10 @@
     
     // add some dummy data
     [self.app addContact:[BNRContact contactWithName:@"Philip J. Fry" phone:@"999 555-1999" address:@"Robot Arms Apt 00100100, Earth"]];
-    [self.app addContact:[BNRContact contactWithName:@"Bender B. Rodriguez" phone:@"999 555-0101" address:@"Robot Arms Apt 00100100, Earth"]];
+    [self.app addContact:[BNRContact contactWithName:@"Bender B. Rodriguez" phone:@"010 110-0101" address:@"Robot Arms Apt 00100100, Earth"]];
     [self.app addContact:[BNRContact contactWithName:@"Turanga Leela" phone:@"999 555-5309" address:@"132 Sewer Street, Earth"]];
     [self.app addContact:[BNRContact contactWithName:@"Amy Wong" phone:@"999 555-2811" address:@"1 Wong Way, Mars"]];
-    [self.app addContact:[BNRContact contactWithName:@"Zapp Brannigan" phone:@"999 555-8008" address:@"D.O.O.P. HQ, Earth"]];
+    [self.app addContact:[BNRContact contactWithName:@"Zapp Brannigan" phone:@"3" address:@"D.O.O.P. HQ, Earth"]];
     [self.app addContact:[BNRContact contactWithName:@"Lrrr" phone:@"999 555-8888" address:@"1 Palace Circle, Omicron Persei 8"]];
     
     NSLog(@"%@", self.app);
