@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B9E070818F45ADC00318FCA /* BNRContactListHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9E070718F45ADC00318FCA /* BNRContactListHeader.m */; };
+		7B9E070A18F45AF400318FCA /* BNRContactListHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B9E070918F45AF400318FCA /* BNRContactListHeader.xib */; };
+		7BC19E5618F3AA08006BCC1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC19E5518F3AA08006BCC1A /* Foundation.framework */; };
+		7BC19E5818F3AA08006BCC1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC19E5718F3AA08006BCC1A /* CoreGraphics.framework */; };
+		7BC19E5A18F3AA08006BCC1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC19E5918F3AA08006BCC1A /* UIKit.framework */; };
+		7BC19E6018F3AA08006BCC1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BC19E5E18F3AA08006BCC1A /* InfoPlist.strings */; };
+		7BC19E6218F3AA08006BCC1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC19E6118F3AA08006BCC1A /* main.m */; };
+		7BC19E6618F3AA08006BCC1A /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC19E6518F3AA08006BCC1A /* BNRAppDelegate.m */; };
+		7BC19E6818F3AA08006BCC1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC19E6718F3AA08006BCC1A /* Images.xcassets */; };
+		7BC19E6F18F3AA08006BCC1A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC19E6E18F3AA08006BCC1A /* XCTest.framework */; };
+		7BC19E7018F3AA08006BCC1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC19E5518F3AA08006BCC1A /* Foundation.framework */; };
+		7BC19E7118F3AA08006BCC1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC19E5918F3AA08006BCC1A /* UIKit.framework */; };
+		7BC19E7918F3AA08006BCC1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BC19E7718F3AA08006BCC1A /* InfoPlist.strings */; };
+		7BC19E7B18F3AA08006BCC1A /* JSCoreByExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC19E7A18F3AA08006BCC1A /* JSCoreByExampleTests.m */; };
+		7BC19E8518F3AA1D006BCC1A /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC19E8418F3AA1D006BCC1A /* JavaScriptCore.framework */; };
+		7BC19E8B18F3AB30006BCC1A /* BNRContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC19E8A18F3AB30006BCC1A /* BNRContact.m */; };
+		7BC19E8F18F3AC93006BCC1A /* BNRContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC19E8D18F3AC93006BCC1A /* BNRContactCell.m */; };
+		7BC19E9018F3AC93006BCC1A /* BNRContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BC19E8E18F3AC93006BCC1A /* BNRContactCell.xib */; };
+		7BC19E9318F3AE54006BCC1A /* BNRContactListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC19E9218F3AE54006BCC1A /* BNRContactListVC.m */; };
+		7BC19E9618F3AF78006BCC1A /* BNRContactApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC19E9518F3AF78006BCC1A /* BNRContactApp.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BC19E7218F3AA08006BCC1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BC19E4A18F3AA08006BCC1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BC19E5118F3AA08006BCC1A;
+			remoteInfo = JSCoreByExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B9E070618F45ADC00318FCA /* BNRContactListHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRContactListHeader.h; sourceTree = "<group>"; };
+		7B9E070718F45ADC00318FCA /* BNRContactListHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRContactListHeader.m; sourceTree = "<group>"; };
+		7B9E070918F45AF400318FCA /* BNRContactListHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRContactListHeader.xib; sourceTree = "<group>"; };
+		7BC19E5218F3AA08006BCC1A /* JSCoreByExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSCoreByExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC19E5518F3AA08006BCC1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7BC19E5718F3AA08006BCC1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7BC19E5918F3AA08006BCC1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7BC19E5D18F3AA08006BCC1A /* JSCoreByExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSCoreByExample-Info.plist"; sourceTree = "<group>"; };
+		7BC19E5F18F3AA08006BCC1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BC19E6118F3AA08006BCC1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BC19E6318F3AA08006BCC1A /* JSCoreByExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSCoreByExample-Prefix.pch"; sourceTree = "<group>"; };
+		7BC19E6418F3AA08006BCC1A /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
+		7BC19E6518F3AA08006BCC1A /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
+		7BC19E6718F3AA08006BCC1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7BC19E6D18F3AA08006BCC1A /* JSCoreByExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSCoreByExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC19E6E18F3AA08006BCC1A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7BC19E7618F3AA08006BCC1A /* JSCoreByExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSCoreByExampleTests-Info.plist"; sourceTree = "<group>"; };
+		7BC19E7818F3AA08006BCC1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BC19E7A18F3AA08006BCC1A /* JSCoreByExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCoreByExampleTests.m; sourceTree = "<group>"; };
+		7BC19E8418F3AA1D006BCC1A /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		7BC19E8918F3AB30006BCC1A /* BNRContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRContact.h; sourceTree = "<group>"; };
+		7BC19E8A18F3AB30006BCC1A /* BNRContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRContact.m; sourceTree = "<group>"; };
+		7BC19E8C18F3AC93006BCC1A /* BNRContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRContactCell.h; sourceTree = "<group>"; };
+		7BC19E8D18F3AC93006BCC1A /* BNRContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRContactCell.m; sourceTree = "<group>"; };
+		7BC19E8E18F3AC93006BCC1A /* BNRContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRContactCell.xib; sourceTree = "<group>"; };
+		7BC19E9118F3AE54006BCC1A /* BNRContactListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRContactListVC.h; sourceTree = "<group>"; };
+		7BC19E9218F3AE54006BCC1A /* BNRContactListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRContactListVC.m; sourceTree = "<group>"; };
+		7BC19E9418F3AF78006BCC1A /* BNRContactApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRContactApp.h; sourceTree = "<group>"; };
+		7BC19E9518F3AF78006BCC1A /* BNRContactApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRContactApp.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BC19E4F18F3AA08006BCC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC19E8518F3AA1D006BCC1A /* JavaScriptCore.framework in Frameworks */,
+				7BC19E5818F3AA08006BCC1A /* CoreGraphics.framework in Frameworks */,
+				7BC19E5A18F3AA08006BCC1A /* UIKit.framework in Frameworks */,
+				7BC19E5618F3AA08006BCC1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC19E6A18F3AA08006BCC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC19E6F18F3AA08006BCC1A /* XCTest.framework in Frameworks */,
+				7BC19E7118F3AA08006BCC1A /* UIKit.framework in Frameworks */,
+				7BC19E7018F3AA08006BCC1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BC19E4918F3AA08006BCC1A = {
+			isa = PBXGroup;
+			children = (
+				7BC19E5B18F3AA08006BCC1A /* JSCoreByExample */,
+				7BC19E7418F3AA08006BCC1A /* JSCoreByExampleTests */,
+				7BC19E5418F3AA08006BCC1A /* Frameworks */,
+				7BC19E5318F3AA08006BCC1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BC19E5318F3AA08006BCC1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BC19E5218F3AA08006BCC1A /* JSCoreByExample.app */,
+				7BC19E6D18F3AA08006BCC1A /* JSCoreByExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BC19E5418F3AA08006BCC1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BC19E8418F3AA1D006BCC1A /* JavaScriptCore.framework */,
+				7BC19E5518F3AA08006BCC1A /* Foundation.framework */,
+				7BC19E5718F3AA08006BCC1A /* CoreGraphics.framework */,
+				7BC19E5918F3AA08006BCC1A /* UIKit.framework */,
+				7BC19E6E18F3AA08006BCC1A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BC19E5B18F3AA08006BCC1A /* JSCoreByExample */ = {
+			isa = PBXGroup;
+			children = (
+				7BC19E8818F3AB14006BCC1A /* Model */,
+				7BC19E8718F3AB0E006BCC1A /* View */,
+				7BC19E8618F3AAFF006BCC1A /* Controller */,
+				7BC19E6418F3AA08006BCC1A /* BNRAppDelegate.h */,
+				7BC19E6518F3AA08006BCC1A /* BNRAppDelegate.m */,
+				7BC19E6718F3AA08006BCC1A /* Images.xcassets */,
+				7BC19E5C18F3AA08006BCC1A /* Supporting Files */,
+			);
+			path = JSCoreByExample;
+			sourceTree = "<group>";
+		};
+		7BC19E5C18F3AA08006BCC1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BC19E5D18F3AA08006BCC1A /* JSCoreByExample-Info.plist */,
+				7BC19E5E18F3AA08006BCC1A /* InfoPlist.strings */,
+				7BC19E6118F3AA08006BCC1A /* main.m */,
+				7BC19E6318F3AA08006BCC1A /* JSCoreByExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BC19E7418F3AA08006BCC1A /* JSCoreByExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BC19E7A18F3AA08006BCC1A /* JSCoreByExampleTests.m */,
+				7BC19E7518F3AA08006BCC1A /* Supporting Files */,
+			);
+			path = JSCoreByExampleTests;
+			sourceTree = "<group>";
+		};
+		7BC19E7518F3AA08006BCC1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BC19E7618F3AA08006BCC1A /* JSCoreByExampleTests-Info.plist */,
+				7BC19E7718F3AA08006BCC1A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BC19E8618F3AAFF006BCC1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7BC19E9418F3AF78006BCC1A /* BNRContactApp.h */,
+				7BC19E9518F3AF78006BCC1A /* BNRContactApp.m */,
+				7BC19E9118F3AE54006BCC1A /* BNRContactListVC.h */,
+				7BC19E9218F3AE54006BCC1A /* BNRContactListVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7BC19E8718F3AB0E006BCC1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BC19E8C18F3AC93006BCC1A /* BNRContactCell.h */,
+				7BC19E8D18F3AC93006BCC1A /* BNRContactCell.m */,
+				7BC19E8E18F3AC93006BCC1A /* BNRContactCell.xib */,
+				7B9E070618F45ADC00318FCA /* BNRContactListHeader.h */,
+				7B9E070718F45ADC00318FCA /* BNRContactListHeader.m */,
+				7B9E070918F45AF400318FCA /* BNRContactListHeader.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7BC19E8818F3AB14006BCC1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BC19E8918F3AB30006BCC1A /* BNRContact.h */,
+				7BC19E8A18F3AB30006BCC1A /* BNRContact.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BC19E5118F3AA08006BCC1A /* JSCoreByExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC19E7E18F3AA08006BCC1A /* Build configuration list for PBXNativeTarget "JSCoreByExample" */;
+			buildPhases = (
+				7BC19E4E18F3AA08006BCC1A /* Sources */,
+				7BC19E4F18F3AA08006BCC1A /* Frameworks */,
+				7BC19E5018F3AA08006BCC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSCoreByExample;
+			productName = JSCoreByExample;
+			productReference = 7BC19E5218F3AA08006BCC1A /* JSCoreByExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BC19E6C18F3AA08006BCC1A /* JSCoreByExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC19E8118F3AA08006BCC1A /* Build configuration list for PBXNativeTarget "JSCoreByExampleTests" */;
+			buildPhases = (
+				7BC19E6918F3AA08006BCC1A /* Sources */,
+				7BC19E6A18F3AA08006BCC1A /* Frameworks */,
+				7BC19E6B18F3AA08006BCC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BC19E7318F3AA08006BCC1A /* PBXTargetDependency */,
+			);
+			name = JSCoreByExampleTests;
+			productName = JSCoreByExampleTests;
+			productReference = 7BC19E6D18F3AA08006BCC1A /* JSCoreByExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BC19E4A18F3AA08006BCC1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BNR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+				TargetAttributes = {
+					7BC19E6C18F3AA08006BCC1A = {
+						TestTargetID = 7BC19E5118F3AA08006BCC1A;
+					};
+				};
+			};
+			buildConfigurationList = 7BC19E4D18F3AA08006BCC1A /* Build configuration list for PBXProject "JSCoreByExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BC19E4918F3AA08006BCC1A;
+			productRefGroup = 7BC19E5318F3AA08006BCC1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BC19E5118F3AA08006BCC1A /* JSCoreByExample */,
+				7BC19E6C18F3AA08006BCC1A /* JSCoreByExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BC19E5018F3AA08006BCC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9E070A18F45AF400318FCA /* BNRContactListHeader.xib in Resources */,
+				7BC19E6018F3AA08006BCC1A /* InfoPlist.strings in Resources */,
+				7BC19E6818F3AA08006BCC1A /* Images.xcassets in Resources */,
+				7BC19E9018F3AC93006BCC1A /* BNRContactCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC19E6B18F3AA08006BCC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC19E7918F3AA08006BCC1A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BC19E4E18F3AA08006BCC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC19E8B18F3AB30006BCC1A /* BNRContact.m in Sources */,
+				7BC19E8F18F3AC93006BCC1A /* BNRContactCell.m in Sources */,
+				7B9E070818F45ADC00318FCA /* BNRContactListHeader.m in Sources */,
+				7BC19E6218F3AA08006BCC1A /* main.m in Sources */,
+				7BC19E9318F3AE54006BCC1A /* BNRContactListVC.m in Sources */,
+				7BC19E6618F3AA08006BCC1A /* BNRAppDelegate.m in Sources */,
+				7BC19E9618F3AF78006BCC1A /* BNRContactApp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC19E6918F3AA08006BCC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC19E7B18F3AA08006BCC1A /* JSCoreByExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BC19E7318F3AA08006BCC1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BC19E5118F3AA08006BCC1A /* JSCoreByExample */;
+			targetProxy = 7BC19E7218F3AA08006BCC1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BC19E5E18F3AA08006BCC1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BC19E5F18F3AA08006BCC1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7BC19E7718F3AA08006BCC1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BC19E7818F3AA08006BCC1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BC19E7C18F3AA08006BCC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BC19E7D18F3AA08006BCC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BC19E7F18F3AA08006BCC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSCoreByExample/JSCoreByExample-Prefix.pch";
+				INFOPLIST_FILE = "JSCoreByExample/JSCoreByExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7BC19E8018F3AA08006BCC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSCoreByExample/JSCoreByExample-Prefix.pch";
+				INFOPLIST_FILE = "JSCoreByExample/JSCoreByExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7BC19E8218F3AA08006BCC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSCoreByExample.app/JSCoreByExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSCoreByExample/JSCoreByExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JSCoreByExampleTests/JSCoreByExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7BC19E8318F3AA08006BCC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSCoreByExample.app/JSCoreByExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSCoreByExample/JSCoreByExample-Prefix.pch";
+				INFOPLIST_FILE = "JSCoreByExampleTests/JSCoreByExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BC19E4D18F3AA08006BCC1A /* Build configuration list for PBXProject "JSCoreByExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC19E7C18F3AA08006BCC1A /* Debug */,
+				7BC19E7D18F3AA08006BCC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BC19E7E18F3AA08006BCC1A /* Build configuration list for PBXNativeTarget "JSCoreByExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC19E7F18F3AA08006BCC1A /* Debug */,
+				7BC19E8018F3AA08006BCC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BC19E8118F3AA08006BCC1A /* Build configuration list for PBXNativeTarget "JSCoreByExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC19E8218F3AA08006BCC1A /* Debug */,
+				7BC19E8318F3AA08006BCC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BC19E4A18F3AA08006BCC1A /* Project object */;
+}
