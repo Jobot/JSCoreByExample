@@ -36,8 +36,11 @@
     
     NSLog(@"%@", self.app);
     
-    // create list VC as root VC
-    self.window.rootViewController = [[BNRContactListVC alloc] initWithApp:self.app];
+    // create list VC
+    BNRContactListVC *listVC = [[BNRContactListVC alloc] initWithApp:self.app];
+    
+    // create navigation VC
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:listVC];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

@@ -9,16 +9,16 @@
 #import "BNRContact.h"
 #import "BNRContactApp.h"
 #import "BNRContactCell.h"
-#import "BNRContactListHeader.h"
 #import "BNRContactListVC.h"
+#import "BNRAddContactWebVC.h"
 
 @interface BNRContactListVC ()
 
 @property (nonatomic) BNRContactApp *app;
 @property (nonatomic, readonly) NSString *contactCellID;
 @property (nonatomic, readonly) UIColor *backgroundColor;
+@property (nonatomic, readonly) UIBarButtonItem *addContactButton;
 
-- (void)editContactsButtonPressed:(UIButton *)sender;
 - (void)addContactButtonPressed;
 
 @end
@@ -27,6 +27,7 @@
 
 @synthesize contactCellID = _contactCellID;
 @synthesize backgroundColor = _backgroundColor;
+@synthesize addContactButton = _addContactButton;
 
 #pragma mark - Initializers
 
@@ -57,14 +58,27 @@
     return _backgroundColor;
 }
 
+- (UIBarButtonItem *)addContactButton
+{
+    if (!_addContactButton) {
+        _addContactButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addContactButtonPressed)];
+    }
+    return _addContactButton;
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    // pretty up the view
-    self.tableView.backgroundColor = self.backgroundColor;
+    self.title = @"All My Contacts";
+
+    self.navigationController.navigationBar.barTintColor = self.backgroundColor;
+    
+    
+    self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [self.navigationItem setRightBarButtonItems:@[ self.addContactButton, self.editButtonItem ]];
     
     // register nib for reusable cells
     UINib *cellNib = [UINib nibWithNibName:@"BNRContactCell" bundle:nil];
@@ -126,40 +140,22 @@
     return 62;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+- (void)setEditing:(BOOL)editing animated:(BOOL)animated
 {
-    return 61;
-}
-
-- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
-{
-    NSArray *views = [[NSBundle mainBundle] loadNibNamed:@"BNRContactListHeader" owner:self options:nil];
-    BNRContactListHeader *header = [views objectAtIndex:0];
-    header.backgroundColor = self.backgroundColor;
-    [header.editContactButton addTarget:self action:@selector(editContactsButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
-    [header.addContactButton addTarget:self action:@selector(addContactButtonPressed) forControlEvents:UIControlEventTouchUpInside];
+    [super setEditing:editing animated:animated];
     
-    return header;
+    if (!editing) {
+        NSLog(@"%@", self.app);
+    }
 }
 
 #pragma mark - Actions
 
-- (void)editContactsButtonPressed:(UIButton *)sender
-{
-    [self setEditing:!self.editing animated:YES];
-    
-    if (self.editing) {
-        [sender setTitle:@"Done" forState:UIControlStateNormal];
-    } else {
-        [sender setTitle:@"Edit" forState:UIControlStateNormal];
-    }
-    
-    NSLog(@"%@", self.app);
-}
-
 - (void)addContactButtonPressed
 {
     NSLog(@"Add Contact Button Pressed");
+    BNRAddContactWebVC *webVC = [[BNRAddContactWebVC alloc] initWithNibName:@"BNRAddContactWebVC" bundle:nil];
+    [self.navigationController pushViewController:webVC animated:YES];
 }
 
 @end

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B9E070818F45ADC00318FCA /* BNRContactListHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9E070718F45ADC00318FCA /* BNRContactListHeader.m */; };
-		7B9E070A18F45AF400318FCA /* BNRContactListHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B9E070918F45AF400318FCA /* BNRContactListHeader.xib */; };
+		7B9E070E18F639A500318FCA /* BNRAddContactWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9E070C18F639A500318FCA /* BNRAddContactWebVC.m */; };
+		7B9E070F18F639A500318FCA /* BNRAddContactWebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B9E070D18F639A500318FCA /* BNRAddContactWebVC.xib */; };
 		7BC19E5618F3AA08006BCC1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC19E5518F3AA08006BCC1A /* Foundation.framework */; };
 		7BC19E5818F3AA08006BCC1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC19E5718F3AA08006BCC1A /* CoreGraphics.framework */; };
 		7BC19E5A18F3AA08006BCC1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC19E5918F3AA08006BCC1A /* UIKit.framework */; };
@@ -40,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7B9E070618F45ADC00318FCA /* BNRContactListHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRContactListHeader.h; sourceTree = "<group>"; };
-		7B9E070718F45ADC00318FCA /* BNRContactListHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRContactListHeader.m; sourceTree = "<group>"; };
-		7B9E070918F45AF400318FCA /* BNRContactListHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRContactListHeader.xib; sourceTree = "<group>"; };
+		7B9E070B18F639A500318FCA /* BNRAddContactWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRAddContactWebVC.h; sourceTree = "<group>"; };
+		7B9E070C18F639A500318FCA /* BNRAddContactWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRAddContactWebVC.m; sourceTree = "<group>"; };
+		7B9E070D18F639A500318FCA /* BNRAddContactWebVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRAddContactWebVC.xib; sourceTree = "<group>"; };
 		7BC19E5218F3AA08006BCC1A /* JSCoreByExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSCoreByExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC19E5518F3AA08006BCC1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7BC19E5718F3AA08006BCC1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -187,9 +187,9 @@
 				7BC19E8C18F3AC93006BCC1A /* BNRContactCell.h */,
 				7BC19E8D18F3AC93006BCC1A /* BNRContactCell.m */,
 				7BC19E8E18F3AC93006BCC1A /* BNRContactCell.xib */,
-				7B9E070618F45ADC00318FCA /* BNRContactListHeader.h */,
-				7B9E070718F45ADC00318FCA /* BNRContactListHeader.m */,
-				7B9E070918F45AF400318FCA /* BNRContactListHeader.xib */,
+				7B9E070B18F639A500318FCA /* BNRAddContactWebVC.h */,
+				7B9E070C18F639A500318FCA /* BNRAddContactWebVC.m */,
+				7B9E070D18F639A500318FCA /* BNRAddContactWebVC.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -279,8 +279,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B9E070A18F45AF400318FCA /* BNRContactListHeader.xib in Resources */,
 				7BC19E6018F3AA08006BCC1A /* InfoPlist.strings in Resources */,
+				7B9E070F18F639A500318FCA /* BNRAddContactWebVC.xib in Resources */,
 				7BC19E6818F3AA08006BCC1A /* Images.xcassets in Resources */,
 				7BC19E9018F3AC93006BCC1A /* BNRContactCell.xib in Resources */,
 			);
@@ -303,9 +303,9 @@
 			files = (
 				7BC19E8B18F3AB30006BCC1A /* BNRContact.m in Sources */,
 				7BC19E8F18F3AC93006BCC1A /* BNRContactCell.m in Sources */,
-				7B9E070818F45ADC00318FCA /* BNRContactListHeader.m in Sources */,
 				7BC19E6218F3AA08006BCC1A /* main.m in Sources */,
 				7BC19E9318F3AE54006BCC1A /* BNRContactListVC.m in Sources */,
+				7B9E070E18F639A500318FCA /* BNRAddContactWebVC.m in Sources */,
 				7BC19E6618F3AA08006BCC1A /* BNRAppDelegate.m in Sources */,
 				7BC19E9618F3AF78006BCC1A /* BNRContactApp.m in Sources */,
 			);
