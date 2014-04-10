@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class BNRContactApp;
+
 @interface BNRAddContactWebVC : UIViewController
+
+- (instancetype)initWithApp:(BNRContactApp *)app;
 
 @end

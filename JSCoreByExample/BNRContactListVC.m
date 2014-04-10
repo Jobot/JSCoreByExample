@@ -14,7 +14,7 @@
 
 @interface BNRContactListVC ()
 
-@property (nonatomic) BNRContactApp *app;
+@property (nonatomic, weak) BNRContactApp *app;
 @property (nonatomic, readonly) NSString *contactCellID;
 @property (nonatomic, readonly) UIColor *backgroundColor;
 @property (nonatomic, readonly) UIBarButtonItem *addContactButton;
@@ -76,13 +76,18 @@
 
     self.navigationController.navigationBar.barTintColor = self.backgroundColor;
     
-    
+    self.navigationController.navigationBar.translucent = NO;
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
     [self.navigationItem setRightBarButtonItems:@[ self.addContactButton, self.editButtonItem ]];
     
     // register nib for reusable cells
     UINib *cellNib = [UINib nibWithNibName:@"BNRContactCell" bundle:nil];
     [self.tableView registerNib:cellNib forCellReuseIdentifier:self.contactCellID];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.tableView reloadData];
 }
 
 #pragma mark - Table view data source
@@ -153,8 +158,7 @@
 
 - (void)addContactButtonPressed
 {
-    NSLog(@"Add Contact Button Pressed");
-    BNRAddContactWebVC *webVC = [[BNRAddContactWebVC alloc] initWithNibName:@"BNRAddContactWebVC" bundle:nil];
+    BNRAddContactWebVC *webVC = [[BNRAddContactWebVC alloc] initWithApp:self.app];
     [self.navigationController pushViewController:webVC animated:YES];
 }
 
